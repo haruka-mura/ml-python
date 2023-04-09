@@ -1,0 +1,8 @@
+version: '3'
+services:
+  ml-python:
+    build: .
+    container_name: ml-python
+    tty: true
+    volumes:
+      - ./work:/work
